@@ -28,8 +28,7 @@ class Program
         totalDeductions = TAX_RATE * grossPay;
         netPay = grossPay - totalDeductions;
 
-        Console.WriteLine("");
-      
+        Console.WriteLine("");      
         Console.WriteLine("Your total pay will be " + netPay.ToString("0.00") + ".");
         Console.WriteLine("The government will take " + totalDeductions.ToString("0.00") + ".");
 
